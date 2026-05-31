@@ -29,9 +29,14 @@ Road accidents are a major public safety concern. This project uses a real-world
 |------|-------------|
 | `Road_accident_Project.ipynb` | Main notebook with data preprocessing, pipeline building, and model training |
 | `Road_Accident_Project_app.py` | Streamlit web app for interactive accident severity prediction |
-| `Road Accident Project.pkl` | Saved trained Sklearn pipeline model |
 | `10 pipe dataset.csv` | Dataset used for training |
 | `10 pipe img.png` | Pipeline diagram displayed in the app |
+
+---
+
+## Note on Model File
+
+The trained model file (`Road Accident Project.pkl`) is not included in this repository as it exceeds GitHub's 25MB file size limit. To generate it, run all cells in `Road_accident_Project.ipynb` — it will save the model file locally, which can then be used with the Streamlit app.
 
 ---
 
